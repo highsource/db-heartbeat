@@ -11,13 +11,13 @@ requires QGIS > v18 (Las Palmas)
 
 ### setup 
 
-`cd train-animation`
-`npm install`
+* `cd train-animation`
+* `npm install`
 
 ### start
 
-`cd train-animation`
-`npm start`
+* `cd train-animation`
+* `npm start`
 
 ### access
 
