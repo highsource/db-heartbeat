@@ -5,7 +5,7 @@ DB Heartbeat
 
 requires QGIS > v18 (Las Palmas)
 
-![static-map-preview][static-map/static-map-preview.png]
+![static-map-preview](static-map/static-map-preview.png "static-map-preview")
 
 ## train-animation
 
