@@ -54,7 +54,8 @@ L.Playback.Control = L.Control.extend({
   _setup: function() {
     var self = this;
     var playback = this.playback;
-    $('#play-pause').click(function() {
+    $('#play-pause').click(function(e) {
+      e.preventDefault();
       if (playback.isPlaying() === false) {
         playback.start();
         $('#play-pause-icon').removeClass('fa-play');
