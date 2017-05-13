@@ -3,8 +3,13 @@ $(function() {
     var map = new L.Map('map');
 
     var basemapLayer = new L.TileLayer('https://{s}.tiles.mapbox.com/v3/github.map-xgq2svrz/{z}/{x}/{y}.png',
-			{attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
-			'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			{attribution: 
+			'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+			'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>, ' +
+			'<a href="http://data.deutschebahn.com/dataset/api-fahrplan">Timetable data</a> &copy; DB Vertrieb GmbH, ' +
+			'<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, ' +
+			'<a href="http://data.deutschebahn.com/dataset/data-streckennetz">Railroad network data</a> &copy; DB Netz AG, ' +
+			'<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, ' +
 			'Imagery &copy; <a href="http://mapbox.com">Mapbox</a>'});
 
     // Center map and default zoom level
